@@ -1,17 +1,16 @@
-
 {
     "name": "azure-node-crud",
     "version": "1.0.0",
     "description": "Simple Node.js CRUD with Azure Cosmos DB",
     "main": "app.js",
     "scripts": {
-      "start": "node app.js"
+        "start": "node app.js"
     },
     "author": "sam",
     "license": "MIT",
     "dependencies": {
-      "express": "^4.18.2",
-      "mongoose": "^7.4.0"
+        "cors": "^2.8.5",
+        "express": "^4.18.2",
+        "mongoose": "^7.4.0"
     }
-  }
-  
+}
